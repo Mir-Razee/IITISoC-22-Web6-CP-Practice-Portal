@@ -1,0 +1,245 @@
+/*######## default ######*/
+
+
+nav {
+  width: 100%;
+}
+
+
+hr.mar {
+  color: white;
+  margin: 0;
+}
+
+.card-body {
+  animation: fadein 1s;
+}
+
+
+div.container-fluid.nav-full {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+a.nav-link {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+div.container-fluid.part1 {
+  background-color: white;
+  padding: none;
+}
+
+div.col-sm-12.main2 {
+  padding: 0%;
+}
+
+
+div.card-title,
+div.welcome {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+
+div.welcome {
+  padding-top: 90px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 90px;
+}
+
+img.side-dash {
+  width: 401px;
+  height: 280px;
+  float: right;
+}
+
+
+div.card-title.website {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 4rem;
+  font-family: "SF Pro Display", "SF Pro Icon", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+
+  /* font-size: 50px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  font-style: italic; */
+
+}
+
+div.tired {
+  font-size: 30px;
+}
+
+div.row.caro {
+  padding: 0%;
+}
+
+div.container-fluid.caro {
+  padding: 0%;
+}
+
+div.caro {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+
+div.col-lg-7.caro-left {
+
+  padding: 0px, 20px, 0px;
+  border-radius: 2rem;
+
+}
+
+div.col-lg-5.caro-right {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 2rem;
+}
+
+img.d-block.w-100 {
+  border-radius: 2rem;
+}
+
+.carousel-inner {
+  max-height: 1080px;
+}
+
+div.row.websit-list {
+  background-color: aliceblue;
+}
+
+div.col-lg-4.hackranker {
+  padding: 30px;
+  padding-bottom: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+
+}
+
+div.card {
+  border-color: #212529;
+  padding: 10px;
+  width: 25rem;
+  align-items: center;
+  border-radius: 3rem;
+  box-shadow: 3px 2px 5px;
+  justify-content: space-around;
+  margin: auto;
+}
+
+a.btn {
+  padding: 10px 20px 10px 20px;
+
+}
+
+div.cpp {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+img.card-img-top {
+  height: 80px;
+  width: 100%;
+
+}
+
+div.aboutus {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 20px;
+  padding-bottom: 60px;
+
+}
+
+header.headaboutus {
+
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+div.us {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: 300;
+  height: 2px;
+}
+
+p.copy {
+  text-align: center;
+  padding: 60px 0 10px;
+}
+
+
+
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(10%) rotateX(-10deg);
+  }
+
+
+  to {
+    opacity: 1;
+    transform: translateY(0%) rotateX(0deg);
+
+  }
+}
+
+@media only screen and(max-width: 1400px) {
+  div.card {
+    width: 10rem;
+    text-align: center;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  div.welcome {
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 90px;
+  }
+
+
+  img.side-dash {
+    padding-top: 10px;
+    width: 320px;
+    height: 210px;
+  }
+
+  div.hackranker {
+    padding: 30px;
+    text-align: center;
+  }
+
+  div.card {
+    width: 25rem;
+  }
+
+  div.cpp {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  div.caro {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
